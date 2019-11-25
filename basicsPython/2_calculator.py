@@ -1,0 +1,6 @@
+a=int(input("enter value of a: "))
+b=int(input("enter value of b: "))
+print("sum of a and b is", a+b)
+print("a-b is ",a-b)
+print("maltiplication of a and b is ",a*b)
+print("division is ",a/b)
