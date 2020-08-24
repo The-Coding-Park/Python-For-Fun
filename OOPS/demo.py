@@ -1,10 +1,15 @@
 class Computer:
+    def __init__(self, cpu, ram):
+
+        self.cpu = cpu
+        self.ram = ram
+
     def config(self):
-        print("i5, 16gn ram  and 1tb ssd")
+        print("{}, {}gb ram  and 1tb ssd".format(self.cpu, self.ram))
 
 
-com1 = Computer()
-com2 = Computer()
+com1 = Computer('i5', 12)
+com2 = Computer('i7', 16)
 
 Computer.config(com1)
-Computer.config(com1)
+Computer.config(com2)
